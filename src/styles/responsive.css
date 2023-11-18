@@ -1,0 +1,278 @@
+@media (min-width: 0px) and (max-width: 498px) {
+    .container_header {
+        height: 54px;
+    }
+
+    .container_header h1 {
+        font-size: 18px;
+    }
+
+    .container_navbar {
+        width: 67%;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        z-index: 10;
+        background-color: #263A29;
+        position: fixed;
+        top: 54px;
+        right: -100%;
+        transition: top 0.3s ease;
+        list-style: none;
+        border-radius: 0 0 0 5px;
+    }
+
+    .open {
+        right: 0;
+    }
+
+    .nav_item {
+        display: list-item;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .container_navbar ul li {
+        margin-right: 10px;
+    }
+
+    .container_navbar ul li a {
+        padding: 8px 12px;
+    }
+
+    .container_hero {
+        background-image: url("../public/images/heros/hero-image_2-small.jpg");
+        min-height: 45vh;
+    }
+
+    .hero_title {
+        margin: 10px;
+    }
+
+    .container_card {
+        padding: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .container_favorite {
+        padding: 10px;
+    }
+
+    .detail_unlist {
+        padding: 10px;
+    }
+    
+    .reviews_list {
+        padding: 10px;
+        max-width: 180px;
+    }
+
+    .review_header {
+        padding: 10px;
+        max-width: 150px;
+        font-size: 10px;
+    }
+
+    .review_review {
+        padding: 10px;
+        max-width: 150px;
+        font-size: 10px;
+    }
+
+    .container_card_favorite {
+        padding: 10px;
+        max-width: 380px;
+    }
+
+    .card_item {
+        margin: 10px;
+    }
+
+    .card_content_description {
+        max-height: 80px;
+    }
+}
+
+@media (min-width: 499px) and (max-width: 768px) {
+    .container_header {
+        padding: 10px 0;
+    }
+
+    .container_header h1 {
+        font-size: 20px;
+    }
+
+    .container_navbar {
+        height: 50px;
+        z-index: 10;
+        background-color: #263A29;
+        position: fixed;
+        top: 60px;
+        right: -80%;
+        transition: right 0.3s ease;
+        border-radius: 0 0 0 5px;
+    }
+
+    .open {
+        right: 0;
+    }
+
+    .nav_item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: right;
+        font-size: 12px;
+    }
+
+    .nav_item a {
+        text-decoration: none;
+    }
+
+    .container_navbar ul li {
+        list-style: none;
+    }
+
+    .container_navbar ul li a {
+        text-decoration: none;
+    }
+
+    .container_hero {
+        background-image: url("../public/images/heros/hero-image_2-large.jpg");
+        min-height: 50vh;
+    }
+
+    .hero_title {
+        margin: 10px;
+    }
+
+    .container_card {
+        padding: 10px;
+    }
+
+    .container_favorite {
+        padding: 10px;
+    }
+
+    .detail_unlist {
+        padding: 10px;
+    }
+
+    .reviews_list {
+        padding: 10px;
+    }
+
+    .card_item {
+        margin: 10px;
+    }
+
+    .card_content_description {
+        max-height: 80px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container_header {
+        height: 50px;
+    }
+
+    .container_header h1 {
+        font-size: 22px;
+    }
+
+    .container_navbar {
+        padding: 10px 0;
+    }
+
+    .container_navbar ul li {
+        margin-right: 15px;
+    }
+
+    .container_navbar ul li a {
+        padding: 12px 18px;
+    }
+
+    .container_hero {
+        background-image: url("../public/images/heros/hero-image_2-large.jpg");
+        min-height: 60vh;
+    }
+
+    .hero_title {
+        margin: 15px;
+    }
+
+    .container_card {
+        padding: 15px;
+    }
+
+    .container_favorite {
+        padding: 15px;
+    }
+
+    .detail_unlist {
+        padding: 15px;
+    }
+
+    .reviews_list {
+        padding: 15px;
+    }
+
+    .nav_burger {
+        display: none;
+    }
+}
+
+@media (min-width: 1025px) {
+    .container_header {
+        height: 60px;
+    }
+
+    .container_header h1 {
+        font-size: 24px;
+    }
+
+    .container_navbar {
+        padding: 20px 0;
+    }
+
+    .container_navbar ul li {
+        margin-right: 20px;
+    }
+
+    .container_navbar ul li a {
+        padding: 16px;
+    }
+
+    .container_hero {
+        background-image: url("../public/images/heros/hero-image_2-large.jpg");
+        min-height: 65vh;
+    }
+
+    .hero_title {
+        margin: 20px;
+    }
+
+    .container_card {
+        padding: 20px;
+    }
+
+    .container_favorite {
+        padding: 20px;
+    }
+
+    .detail_unlist {
+        padding: 20px;
+    }
+
+    .reviews_list {
+        padding: 20px;
+    }
+
+    .nav_burger {
+        display: none;
+    }
+}
